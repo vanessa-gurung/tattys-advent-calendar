@@ -12,4 +12,11 @@
   display: grid;
   grid-template-columns: repeat(4, 25%);
   grid-template-rows: repeat(6, 1fr);
+  grid-template-areas:
+  "door6 door13 door18 door1"
+  "door8 door21 door17 door9"
+  "door16 door5 door15 door12"
+  "door10 door2 door22 door19"
+  "door4 door11 door14 door24"
+  "door3 door20 door23 door7";
 }
