@@ -20,3 +20,20 @@
   "door4 door11 door14 door24"
   "door3 door20 door23 door7";
 }
+
+.image {
+  background-image: url("https://www.thecrueltyfreeshop.co.nz/media/catalog/product/cache/a4a61b15224214f29c5658414f6c0e5e/t/h/thecaker_coconut_rasp_kaffir_cake_kit-back.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.text {
+  height: 100%;
+  width: 100%;
+  color: green;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font: bold;
+  padding: 10px;
+  border: 2px solid teal
+
+}
