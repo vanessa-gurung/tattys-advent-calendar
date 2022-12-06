@@ -9,6 +9,10 @@ const create = () => {
     door.classList.add('image')
     door.style.gridArea = 'door' + (i + 1)
     container.appendChild(door)
+
+    doorDay.classList.add('text')
+    doorDay.innerHTML = i + 1
+    door.appendChild(doorDay)
   }
 }
 
