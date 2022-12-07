@@ -4,6 +4,8 @@ const days = 24
 
 const openDoor = (path, event) => {
   event.target.parentNode.style.backgroundImage = `url(${path})`
+  event.target.style.opacity = '0'
+  event.target.style.backgroundColor = '#521751'
 }
 
 const create = () => {
