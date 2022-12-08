@@ -23,7 +23,7 @@ const create = () => {
 
     //update when gifts and type of files are assigned
     giftNumber = i + 1
-    let giftPath = `./gifts/gift-${giftNumber}`
+    let giftPath = `./gifts/gift-${giftNumber}.png`
 
     doorDay.addEventListener('click', openDoor.bind(null, giftPath))
   }
