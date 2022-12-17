@@ -25,7 +25,9 @@ const create = () => {
     giftNumber = i + 1
     let giftPath = `./gifts/gift-${giftNumber}.png`
 
-    doorDay.addEventListener('click', openDoor.bind(giftPath, null))
+    doorDay.addEventListener('click', openDoor.bind(null, giftPath))
+
+    
   }
 }
 
